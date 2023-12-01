@@ -1,0 +1,13 @@
+{% load static %}  <!-- Add this line at the top of your file -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gesture Recognition</title>
+</head>
+<body>
+    <video id="videoElement" autoplay></video>
+    <div id="gestureResult">Waiting for gesture...</div>
+    <script src="{% static 'webcam.js' %}" defer></script>
+</body>
+</html>
